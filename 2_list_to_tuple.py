@@ -6,9 +6,9 @@ Tuple : ('3', ' 5', ' 7', ' 23')
 """
 
 
-def generate_list_tuple(data):
+def generate_list_tuple(text):
     new_list = []
-    for x in data:
+    for x in text:
         if x != ',':
             new_list.append(x)
     print(new_list)
