@@ -3,10 +3,10 @@
 """
 
 import os
+
 files = os.listdir()
-dir = ["1",".git"]
+sns = ["1", ".git"]
 print(files)
-#print(os.path.abspath("/1"))
 for x in files:
-    if os.path.isdir(x) and x not in dir:
-         print(x)
+    if os.path.isdir(x) and x not in sns:
+        print(x)
