@@ -4,5 +4,5 @@
 
 import sys
 str1 = "ten"
-print("Memory size of '"+str1+"' = "+str(sys.getsizeof(str1))+ " bytes")
+print("Memory size of '"+str1+"' = "+str(sys.getsizeof(str1))+" bytes")
 print()
