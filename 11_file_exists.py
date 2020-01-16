@@ -3,12 +3,15 @@
 """
 
 import os.path
+
+
 def is_exist(filename):
     try:
         with open(filename, 'r') as f:
             return True
     except IOError as x:
         return False
+
 
 file = "one.txt"
 
