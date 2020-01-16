@@ -12,15 +12,14 @@ print(is_defined(x))
 """
 
 try:
-  x = 10
+    x = 10
 except NameError:
-  print("Variable is not defined....!")
+    print("Variable is not defined....!")
 else:
-  print("Variable is defined.")
+    print("Variable is defined.")
 try:
-  y
+    y
 except NameError:
-  print("Variable is not defined....!")
+    print("Variable is not defined....!")
 else:
-  print("Variable is defined.")
-  
+    print("Variable is defined.")
