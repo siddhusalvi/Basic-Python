@@ -4,14 +4,18 @@ Question is wrong
 Sample data : 50
 Expected output : 110010
 """
-def int_to_binary(num , data):#function that returns binary number
+
+
+def int_to_binary(number, data):  # function that returns binary number
     data = ""
-    while(num != 0):
-        data += str(num%2)
-        num = num//2
+    while number != 0:
+        data += str(number % 2)
+        number = number // 2
     reverse = ""
     for i in data:
         reverse = i + reverse
     print(reverse)
+
+
 num = 20
-print(int_to_binary(num," "))
+print(int_to_binary(num, " "))
