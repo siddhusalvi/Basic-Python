@@ -4,14 +4,16 @@ Output :
 List : ['3', ' 5', ' 7', ' 23']
 Tuple : ('3', ' 5', ' 7', ' 23')
 """
-def generate_list_tuple(str):
-    list = []
-    for x in str:
+
+
+def generate_list_tuple(data):
+    new_list = []
+    for x in data:
         if x != ',':
-            list.append(x)
-    print(list)
-    tuple = (*list, )
-    print(tuple)
+            new_list.append(x)
+    print(new_list)
+    new_tuple = (*new_list,)
+    print(new_tuple)
 
 
 data = input("Enter your list")
