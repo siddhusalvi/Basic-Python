@@ -5,10 +5,10 @@ type() produces the type object for each value, which when called produces an 'e
 
 
 num = 53
-dictionary = {"x":50}
-list = [1,3,5]
-tuple= (5,7,8)
+dictionary = {"x": 50}
+list1 = [1, 3, 5]
+tuple1= (5, 7, 8)
 print(type(num)())
 print(type(dictionary)())
-print(type(list)())
-print(type(tuple)()) 
+print(type(list1)())
+print(type(tuple1)())
